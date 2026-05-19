@@ -9,6 +9,10 @@
 - AI 能力: Google Gemini API / OpenAI Compatible API
 - 存储: IndexedDB (idb) + 文件系统服务
 
+## 核心愿景
+
+MuseUI 将 AI 画图能力工程化为"点点点"的图形交互形式，把优质开源 Skill 整合进工具中，供用户直观使用。
+
 ## 源代码结构
 
 ```
@@ -24,12 +28,18 @@ src/
 └── constants.ts        # 常量
 ```
 
+## 已有 Skill 模块
+
+`article-illustrator`, `comic`, `cover-image`, `designs`, `infographic`, `layouts`, `logo`, `slide-deck`, `sticker-design`, `xhs-images`
+
 ## 团队角色
 
 | Reins | 职责 |
 |---|---|
 | **pm-analyst** | 需求分析、任务规划、进度跟踪 |
+| **skill-analyzer** | 分析外部 Skill，输出工程化方案 |
 | **developer** | 功能开发、代码实现 |
+| **deployer** | 代码部署、生产验证、Health Check |
 | **qa-tester** | 测试验证、质量把控 |
 
 ## 开发者指南
