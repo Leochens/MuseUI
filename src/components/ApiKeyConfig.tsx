@@ -785,7 +785,6 @@ export default function ApiKeyConfig({ onConfigured, onClose, lang = 'zh' }: Pro
                   {officialApiGuides.map((guide) => (
                     <details
                       key={guide.id}
-                      open
                       className="rounded-xl border border-teal-200 dark:border-teal-900/50 bg-teal-50/70 dark:bg-teal-950/20"
                     >
                       <summary className="cursor-pointer select-none px-3 py-2 text-xs font-bold text-stone-800 dark:text-stone-100 hover:text-teal-700 dark:hover:text-teal-300 transition-colors">

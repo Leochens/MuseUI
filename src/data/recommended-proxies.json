@@ -3,10 +3,5 @@
     "name": "VAPI",
     "description": "很稳定，支持的模型非常多",
     "registerUrl": "https://api.gpt.ge/register"
-  },
-  {
-    "name": "神马API",
-    "description": "支持 200+ 模型的统一 API，按量付费",
-    "registerUrl": "https://api.whatai.cc/register"
   }
 ]
